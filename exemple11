@@ -1,0 +1,7 @@
+numero = 29
+for i in range(2, numero):
+    if numero % i == 0:
+        print(numero, 'nao é um n-umero primo.')
+        break
+else:
+    print(numero, 'É UM NÚMERO PRIMO.')
